@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: aliceblue;
+  font-family: "montserrat", sans-serif;
+}
+header {
+  background-color: aliceblue;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: inherit;
+  margin: 0 30px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: lightblue;
+}
+nav {
+  color: #333;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero {
+  text-align: center;
+  justify-content: center;
+  padding: 140px;
+  background-color: blue;
+  /* color: aliceblue; */
+  background-size: cover;
+  background-image: url(./assets/back-hero.jpg);
+}
+button {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  border: 1.5px solid rgb(255, 254, 254);
+  color: white;
+  padding: 6px 7px;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #00ddff;
+  border: 2px solid rgb(0, 119, 255);
+}
+button a {
+  color: inherit;
+  text-decoration: none;
+}
+.about {
+  margin: 60px;
+  padding: 60px 50px 0;
+  background-color: white;
+  border-radius: 20px;
+}
+.about .judul {
+  margin-bottom: 30px;
+}
+.about h3 {
+  margin-bottom: 10px;
+}
+.h3 {
+  display: block;
+  text-align: right;
+}
+.p {
+  text-align: end;
+}
+.about p {
+  font-size: 0.9em;
+}
+.about img {
+  width: 150px;
+}
+.about- {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.judul {
+  text-align: center;
+}
+.timeline {
+  height: 300px;
+  background-image: linear-gradient(aliceblue, rgb(219, 234, 248));
+  padding: 50px;
+}
+table {
+  border-radius: 20px;
+  width: 100%;
+  padding: 0px 10px 50px;
+  margin: 30px auto 20px;
+  background-color: azure;
+}
+th {
+  padding: 15px;
+  /* border: 2px solid black; */
+  background-color: aliceblue;
+}
+td {
+  padding: 15px 20px;
+}
+td:nth-child(2) {
+  text-align: center;
+}
+td:last-child {
+  text-align: center;
+}
+.bars td {
+  border-bottom: 2px solid black;
+}
+.galery .judul {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.galery {
+  padding: 50px;
+  background-color: rgb(219, 234, 248);
+  margin: 50px;
+  border-radius: 20px;
+}
+.galery img {
+  width: 150px;
+}
+.galery h3:last-child {
+  text-align: end;
+}
+.galery- {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+.regis {
+  background-color: azure;
+  padding: 80px;
+}
+.regis img {
+  width: 300px;
+  float: right;
+}
+.label-regis {
+  flex-direction: column;
+}
+.label {
+  width: 50%;
+  display: flex;
+  border: 1.5px solid aliceblue;
+  border-radius: 5px;
+  padding: 15px;
+}
+.label:hover {
+  border: 2px solid lightblue;
+}
+.datalist {
+  border: 1.5px solid aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  width: 51%;
+  margin: 0 0 30px;
+}
+.datalist:hover {
+  border: 1.5px solid lightblue;
+}
+.pinput {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 53%;
+}
+.kirim {
+  background-color: #04aa6d;
+  border-radius: 5px;
+  border: 1.5px solid rgb(255, 254, 254);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+}
+.kirim:hover {
+  background-color: #62f1bd;
+  border: 1px solid black;
+}
+footer {
+  background-color: #c8dbff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+footer img {
+  width: 100px;
+  float: left;
+}
+footer p {
+  margin: 0 0 15px;
+}
+footer a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+@media (max-width: 770px) {
+  nav {
+    justify-content: center;
+  }
+  nav ul li a {
+    font-size: 0.9em;
+    margin: 10px;
+  }
+  .hero {
+    height: 200px;
+    padding: 50px;
+    text-align: start;
+  }
+  .about {
+    margin: 15px;
+  }
+  .about- {
+    padding: 0px;
+    display: block;
+  }
+  .timeline {
+    height: 400px;
+  }
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galery {
+    margin: 15px;
+    text-align: center;
+  }
+  .galery- {
+    text-align: center;
+  }
+  .galery- p {
+    text-align: center;
+  }
+}
