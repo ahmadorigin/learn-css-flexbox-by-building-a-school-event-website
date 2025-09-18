@@ -265,6 +265,9 @@ footer a {
     display: flex;
     flex-direction: column;
   }
+  table {
+    padding-bottom: 30px;
+  }
   .galery {
     font-size: 0, 7em;
     margin: 20px;
@@ -347,20 +350,25 @@ footer a {
   .galery .h3 {
     margin-left: 70px;
     font-size: 1em;
-    text-align: start;
   }
   .galery hr {
     margin: 0;
   }
+  .about p {
+    text-align: justify;
+    margin: auto;
+  }
   .galery-,
   .p {
-    font-size: 0.9em;
-    text-align: start;
-  }
-  .p {
-    margin-left: 50px;
+    text-align: justify;
     font-size: 1em;
+  }
+  .p:nth-child(1) {
     margin-bottom: 20px;
+    text-align: justify;
+  }
+  .p:nth-child(2) {
+    text-align: justify;
   }
   .regis {
     padding: 40px;
