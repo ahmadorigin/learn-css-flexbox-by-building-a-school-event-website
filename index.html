@@ -19,40 +19,46 @@
     </header>
     <main>
       <section class="hero">
-        <h1>Pekan Kreativitas Santri 2025</h1>
-        <p>Berkarya, Berprestasi, dan Berkolaborasi</p>
-        <button><a href="#">Daftar sekarang</a></button>
-        <button><a href="#">Lihat jadwal</a></button>
+        <div class="text-hero">
+          <h1>Pekan Kreativitas Santri 2025</h1>
+          <p>Berkarya, Berprestasi, dan Berkolaborasi</p>
+          <button><a href="#">Daftar sekarang</a></button>
+          <button><a href="#">Lihat jadwal</a></button>
+        </div>
       </section>
       <section class="about">
         <h2 class="judul">About</h2>
-        <img src="./assets/logo-awal.png" alt="" style="float: right" />
-        <h3>Awal Mula</h3>
-        <div class="about-">
-          <p>
-            Santri memiliki kreativitasnya sendiri terlebih pada bidang yang
-            mereka sukai atau minati, tak jarang banyak yang menjadikan hasil
-            dari kreativitas mereka sebagai hal yang kurang bermanfaat. Maka
-            dari itu HIMSA yaitu organisasi Santri Al-Mahir membuat suatu acara
-            yang diberi nama “Pekan Kreativitas Santri”. Peserta tidak hanya
-            dari Santri Al-Mahir, tetapi Santri luar (pondok) juga bisa
-            mengikuti acara ini.
-          </p>
+        <div class="about--">
+          <h3>Awal Mula</h3>
+          <div class="about-">
+            <p>
+              Santri memiliki kreativitasnya sendiri terlebih pada bidang yang
+              mereka sukai atau minati, tak jarang banyak yang menjadikan hasil
+              dari kreativitas mereka sebagai hal yang kurang bermanfaat. Maka
+              dari itu HIMSA yaitu organisasi Santri Al-Mahir membuat suatu
+              acara yang diberi nama “Pekan Kreativitas Santri”. Peserta tidak
+              hanya dari Santri Al-Mahir, tetapi Santri luar (pondok) juga bisa
+              mengikuti acara ini.
+            </p>
+            <img src="./assets/logo-awal.png" alt="" />
+          </div>
         </div>
-        <br /><br /><br /><br /><br />
+        <br />
         <hr />
-        <br /><br />
-        <img src="./assets/logo-tujuan.png" alt="" style="float: left" />
-        <h3 class="h3">Tujuan</h3>
-        <div class="about-">
-          <p class="p">
-            Tujuan dibuat nya event atau acara ini agar kreativitas dari
-            ke-gabutan santri menjadi ajang yang bermanfaat bagi pondok sendiri
-            maupun Santri yang mengikuti, dan dapat menjadi apresiasi bagi
-            santri pribadi.
-          </p>
+        <br />
+        <div class="-about">
+          <h3 class="h3">Tujuan</h3>
+          <div class="about-">
+            <img src="./assets/logo-tujuan.png" alt="" />
+            <p class="p">
+              Tujuan dibuat nya event atau acara ini agar kreativitas dari
+              ke-gabutan santri menjadi ajang yang bermanfaat bagi pondok
+              sendiri maupun Santri yang mengikuti, dan dapat menjadi apresiasi
+              bagi santri pribadi.
+            </p>
+          </div>
         </div>
-        <br /><br /><br /><br /><br /><br />
+        <br />
       </section>
       <section class="timeline">
         <h2 class="judul">Timeline Event</h2>
@@ -86,24 +92,20 @@
       <section class="galery">
         <h2 class="judul">Galery</h2>
         <img src="./assets/logo-tahf.png" alt="" style="float: right" />
-        <h3>Tahfidz Competition Group</h3>
-        <div class="galery-">
-          <p>
-            Kompetisi tahfiz grup adalah perlombaan tahfiz Al-Qur'an di mana
-            peserta (individu atau tim) dinilai berdasarkan kemampuan menghafal,
-            memahami, dan melafalkan Al-Qur'an dengan baik dan benar. Kriteria
-            penilaian umumnya mencakup hafalan, kelancaran, tajwid (aturan
-            membaca), makhraj (pengucapan huruf).
-          </p>
-        </div>
-        <br />
-        <br />
+        <h3><> Tahfidz Competition Group</h3>
+        <p class="galery-">
+          Kompetisi tahfiz grup adalah perlombaan tahfiz Al-Qur'an di mana
+          peserta (individu atau tim) dinilai berdasarkan kemampuan menghafal,
+          memahami, dan melafalkan Al-Qur'an dengan baik dan benar. Kriteria
+          penilaian umumnya mencakup hafalan, kelancaran, tajwid (aturan
+          membaca), makhraj (pengucapan huruf).
+        </p>
         <br />
         <hr />
         <br />
-        <h3 class="h3">Web Dev Competition</h3>
+        <h3 class="h3"><> Web Dev Competition</h3>
+        <img src="./assets/logo-webdev.png" alt="" style="float: left" />
         <div class="galery-">
-          <img src="./assets/logo-webdev.png" alt="" style="float: left" />
           <p class="p">
             Ajang kompetisi di mana peserta ditantang untuk merancang dan
             mengembangkan solusi berbasis web atau aplikasi web yang inovatif,
@@ -117,7 +119,7 @@
       <section class="regis">
         <div class="regis-label">
           <img src="./assets/logo-regis.png" alt="" />
-          <h3>Registrasi Formulir Untuk Mengikuti</h3>
+          <h3>Registrasi Formulir Untuk <br />Mengikuti!</h3>
           <br />
           <input
             type="text"
@@ -143,22 +145,24 @@
             class="label"
           />
           <br />
-          <input
-            type="text"
-            name="competisi"
-            id="competisi"
-            list="competition"
-            class="datalist"
-            placeholder="Pilih kompetisi atau event yang ingin kamu ikuti!"
-          />
-          <datalist id="competition">
-            <option value="Web Devlopment Competition"></option>
-            <option value="Tahfidz Qur'an"></option>
-            <option value="Competition Arabic Class"></option>
-            <option value="Burning Pondok Group"></option>
-            <option value="Logic of Matematic"></option>
-            <option value="Gaming Esport"></option>
-          </datalist>
+          <form>
+            <input
+              type="text"
+              name="competisi"
+              id="competisi"
+              list="competition"
+              class="datalist"
+              placeholder="Pilih kompetisi atau event yang ingin kamu ikuti!"
+            />
+            <datalist id="competition">
+              <option value="Web Devlopment Competition"></option>
+              <option value="Tahfidz Qur'an"></option>
+              <option value="Competition Arabic Class"></option>
+              <option value="Burning Pondok Group"></option>
+              <option value="Logic of Matematic"></option>
+              <option value="Gaming Esport"></option>
+            </datalist>
+          </form>
           <div class="pinput">
             <p>Siap mengikuti? Kirim form ini!</p>
             <input type="submit" value="Kirim!" class="kirim" />
@@ -172,7 +176,7 @@
         <h4>Ponpes Al-Mahir 2025</h4>
         <p>Pekan kreativitas santri nusantara</p>
         <br />
-        <p>&copy; Copyright 2025 - PKS 2025</p>
+        <p class="copy">&copy; Copyright 2025 - PKS 2025</p>
       </div>
 
       <div class="icon">
