@@ -128,6 +128,7 @@ table {
   width: 100%;
   margin: 30px auto 20px;
   background-color: azure;
+  padding-bottom: 30px;
 }
 th {
   padding: 15px;
